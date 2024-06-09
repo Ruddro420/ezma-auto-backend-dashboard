@@ -9,7 +9,7 @@ const NavBar = () => {
     const dashboardItems = [
         { href: 'publish-car', label: 'Publish Car' },
         { href: 'driver', label: 'Publish Driver' },
-        { href: '#', label: 'Create Car' }
+        { href: 'create-car', label: 'Create Car' }
     ];
 
     const uiComponentItems = [

@@ -21,7 +21,29 @@ const PublishCar = ({ title }) => {
     return (
         <>
             <div className='ml-3'>
-                <Title title={title} />
+                <div className="w-full md:w-1/3 p-2 relative">
+                    <label className="block mb-1.5">Search</label>
+                    <div className="relative">
+                        <input
+                            className="focus:border-blue-400 focus:ring-2 focus:ring-blue-200 focus:outline-none w-full text-base placeholder-gray-400 border border-gray-300 rounded py-1.5 px-3 pl-10"
+                            type="text"
+                            placeholder="Search..."
+                            required
+                        />
+                        <svg
+                            className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 h-4 w-4"
+                            fill="none"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path d="M21 21l-5.2-5.2M15 10.5A4.5 4.5 0 1 1 10.5 6 4.5 4.5 0 0 1 15 10.5z"></path>
+                        </svg>
+                    </div>
+                </div>
+
             </div>
             <div className="flex flex-wrap">
                 {getData.map(item => (
