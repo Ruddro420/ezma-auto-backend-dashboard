@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "experienced": "5 Years Experienced",
+        "img": "../../images/driver/1.png",
+        "age": 25,
+        "gender": "Male",
+        "salary": 2000
+    },
+    {
+        "id": 2,
+        "name": "Alice Smith",
+        "experienced": "8 Years Experienced",
+        "img": "../../images/driver/2.png",
+        "age": 30,
+        "gender": "Female",
+        "salary": 2500
+    },
+    {
+        "id": 3,
+        "name": "Michael Johnson",
+        "experienced": "3 Years Experienced",
+        "img": "../../images/driver/3.png",
+        "age": 35,
+        "gender": "Male",
+        "salary": 1800
+    },
+    {
+        "id": 4,
+        "name": "Emily Brown",
+        "experienced": "6 Years Experienced",
+        "img": "../../images/driver/4.png",
+        "age": 28,
+        "gender": "Female",
+        "salary": 2200
+    },
+    {
+        "id": 5,
+        "name": "David Wilson",
+        "experienced": "9 Years Experienced",
+        "img": "../../images/driver/5.png",
+        "age": 40,
+        "gender": "Male",
+        "salary": 2700
+    },
+    {
+        "id": 6,
+        "name": "Sophia Martinez",
+        "experienced": "2 Years Experienced",
+        "img": "../../images/driver/6.png",
+        "age": 22,
+        "gender": "Female",
+        "salary": 1600
+    },
+    {
+        "id": 7,
+        "name": "James Lee",
+        "experienced": "7 Years Experienced",
+        "img": "../../images/driver/7.png",
+        "age": 32,
+        "gender": "Male",
+        "salary": 2400
+    }
+]
